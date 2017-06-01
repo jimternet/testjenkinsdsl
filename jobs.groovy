@@ -9,7 +9,7 @@ job('dsl_lein_job') {
         shell('echo START')
         leiningenBuilder {
             task('deps')
-            subdirPath('/')
+            subdirPath('')
 
           }
     }
